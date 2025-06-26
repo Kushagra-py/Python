@@ -7,5 +7,5 @@ line=f1.readline()
 while line != "":
     f2.write(line)
     line = f1.readline() #opens next line important! 
-f1.close
-f2.close
+f1.close()
+f2.close()
