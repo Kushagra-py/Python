@@ -1,5 +1,3 @@
-import random
-import os
 file1 = input("copy: ")
 file2 = input("Paste: ")
 f1 = open(file1, "r")
