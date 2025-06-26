@@ -8,20 +8,21 @@ def capitalize_sentence():
             break #EOF
         line = line.rstrip() #strips newline chr
         linelength = len(line)
-        str=""
-        str+=line[0].upper #first letter
+        string=""
+        string += line[0].upper() #first letter
         i=1
         while i<linelength:
             if line[i]==".": #after full stop
-                str+=line[i]
+                string += line[i]
                 i+=1
-                if i>linelength:
+                if i>=linelength:
                     break #EOF
-                str+=line[i].upper
+                string += line[i].upper()
             else:
-                str=+line[i]            
-            i+=1
-        f2.write(str)  
-    f1.close & f2.close
+                string += line[i]            
+            i += 1
+        f2.write(string)  
+    f1.close() 
+    f2.close()
 
 capitalize_sentence()
