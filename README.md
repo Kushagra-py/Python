@@ -1,1 +1,1 @@
-various bits of extemely basic level python coding 
+various bits of basic level coding 
