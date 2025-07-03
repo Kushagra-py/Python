@@ -2,7 +2,7 @@
  
 int main() { //execution of the program begins from int main()
   
-  std::cout << "hello world\n"; //cout = character output
+  std::cout << "Hello world!\n"; //cout = character output
   
   std::string username;
   std::cout << "Enter your name: ";
