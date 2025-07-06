@@ -18,3 +18,18 @@ int level = 1;
 double pi = 3.14; //float
 bool cpp = true;
 char grade  = 'A'; //single char, uses 'single quote'
+
+/*
+operators:
+== equal to
+!= not equal to
+> greater than
+< less than
+>= greater than or equal to
+<= less than or equal to
+
+logical operators:  
+&& and
+|| or
+! not
+*/
